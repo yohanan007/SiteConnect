@@ -1,0 +1,55 @@
+{%extends 'base.html.twig' %}
+
+{%block title %} Page gestionnaire du blog  {%endblock%}
+{% block body %}
+<header>
+    
+</header>
+     <nav class="navbar navbar-inverse"> 
+     <div class="container-fluid">
+             <div class="navbar-header">
+                 <a class="navbar-brand" href="#">
+                     FAMILLE HIRSCH GESTIONNAIRE
+                 </a>
+             </div>
+             <ul class="nav navbar-nav">
+                 <li class="active">
+                     <a href="../">
+                         index
+                     </a>
+                 </li>
+                <li><a href="#">
+                     autre
+                 </a>
+                 </li> 
+             </ul>
+      </div>
+     </nav>
+     <section class="container-fluid">
+         <article class="jumbotron">
+             <h3>PAGE GESTIONNAIRE UTILISATEURS</h3>
+             <p>page de création, et de gestionnaire des utilisateurs du site</p>
+         </article>
+         <article class="well">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#inscriptionModal">créer un nouvelle utilisateur</button>
+                <div id="inscriptionModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">inscription d'un nouvelle utilisateur</h4>
+                        </div>
+                        <div class="modal-body">
+                           {{ form(forms) }}
+                        </div>
+                        <div class="modal-footer">
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+         </article>
+         <article class="well">
+             <h4>gestion utilisateur</h4>
+         </article>
+     </section>
+     {% endblock %}

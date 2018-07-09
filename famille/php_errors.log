@@ -1,0 +1,940 @@
+[24-Apr-2018 11:04:50 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Form/SectionType.php on line 26
+[24-Apr-2018 11:04:50 UTC] PHP Stack trace:
+[24-Apr-2018 11:04:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 11:04:50 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 11:04:50 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 11:04:50 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 11:04:50 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 11:04:50 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 11:04:50 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->createForm() /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php:36
+[24-Apr-2018 11:04:50 UTC] PHP   8. Symfony\Component\Form\FormFactory->create() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php:395
+[24-Apr-2018 11:04:50 UTC] PHP   9. Symfony\Component\Form\FormBuilder->getForm() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormFactory.php:30
+[24-Apr-2018 11:04:50 UTC] PHP  10. Symfony\Component\Form\FormBuilder->resolveChildren() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilder.php:215
+[24-Apr-2018 11:04:50 UTC] PHP  11. Symfony\Component\Form\FormBuilder->create() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilder.php:269
+[24-Apr-2018 11:04:50 UTC] PHP  12. Symfony\Component\Form\FormFactory->createNamedBuilder() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilder.php:106
+[24-Apr-2018 11:04:50 UTC] PHP  13. Symfony\Component\Form\FormRegistry->getType() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormFactory.php:74
+[24-Apr-2018 11:04:50 UTC] PHP  14. class_exists() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormRegistry.php:85
+[24-Apr-2018 11:04:50 UTC] PHP  15. spl_autoload_call() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormRegistry.php:85
+[24-Apr-2018 11:04:50 UTC] PHP  16. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/Form/FormRegistry.php:85
+[24-Apr-2018 18:46:15 UTC] PHP Fatal error:  Call to undefined method OC\GestionBundle\Controller\DefaultController::getManager() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 44
+[24-Apr-2018 18:46:15 UTC] PHP Stack trace:
+[24-Apr-2018 18:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 18:46:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 18:46:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 18:46:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 18:46:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:46:15 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:51:10 UTC] PHP Fatal error:  Call to undefined method OC\GestionBundle\Controller\DefaultController::getManager() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 45
+[24-Apr-2018 18:51:10 UTC] PHP Stack trace:
+[24-Apr-2018 18:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 18:51:10 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 18:51:10 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 18:51:10 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 18:51:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:51:10 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:55:21 UTC] PHP Fatal error:  Call to undefined method OC\GestionBundle\Controller\DefaultController::getManager() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 45
+[24-Apr-2018 18:55:21 UTC] PHP Stack trace:
+[24-Apr-2018 18:55:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 18:55:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 18:55:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 18:55:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 18:55:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:55:21 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:59:52 UTC] PHP Fatal error:  Call to undefined method Doctrine\Bundle\DoctrineBundle\Registry::getMananger() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 47
+[24-Apr-2018 18:59:52 UTC] PHP Stack trace:
+[24-Apr-2018 18:59:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 18:59:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 18:59:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 18:59:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 18:59:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 18:59:52 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 19:05:34 UTC] PHP Fatal error:  Call to undefined method Doctrine\Bundle\DoctrineBundle\Registry::getMananger() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 47
+[24-Apr-2018 19:05:34 UTC] PHP Stack trace:
+[24-Apr-2018 19:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 19:05:34 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 19:05:34 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 19:05:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 19:05:34 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 19:05:34 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 19:12:20 UTC] PHP Fatal error:  Call to undefined method Doctrine\Bundle\DoctrineBundle\Registry::getMananger() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 47
+[24-Apr-2018 19:12:20 UTC] PHP Stack trace:
+[24-Apr-2018 19:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 19:12:20 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 19:12:20 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 19:12:20 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 19:12:20 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 19:12:20 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 19:14:15 UTC] PHP Fatal error:  Call to undefined method Doctrine\Bundle\DoctrineBundle\Registry::getMananger() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Controller/DefaultController.php on line 48
+[24-Apr-2018 19:14:15 UTC] PHP Stack trace:
+[24-Apr-2018 19:14:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[24-Apr-2018 19:14:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[24-Apr-2018 19:14:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[24-Apr-2018 19:14:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[24-Apr-2018 19:14:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[24-Apr-2018 19:14:15 UTC] PHP   6. OC\GestionBundle\Controller\DefaultController->blogAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[26-Apr-2018 08:44:44 UTC] PHP Fatal error:  Call to undefined method Doctrine\Bundle\DoctrineBundle\Registry::getReporisity() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 22
+[26-Apr-2018 08:44:44 UTC] PHP Stack trace:
+[26-Apr-2018 08:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[26-Apr-2018 08:44:44 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[26-Apr-2018 08:44:44 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[26-Apr-2018 08:44:44 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[26-Apr-2018 08:44:44 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[26-Apr-2018 08:44:44 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->acceuilAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:30:18 UTC] PHP Fatal error:  Call to undefined method Doctrine\ORM\QueryBuilder::getSingleResult() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Repository/ArticleRepository.php on line 25
+[15-May-2018 08:30:18 UTC] PHP Stack trace:
+[15-May-2018 08:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[15-May-2018 08:30:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[15-May-2018 08:30:18 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[15-May-2018 08:30:18 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[15-May-2018 08:30:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:30:18 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->acceuilAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:30:18 UTC] PHP   7. OC\GestionBundle\Repository\ArticleRepository->findLastArticle() /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php:27
+[15-May-2018 08:33:19 UTC] PHP Fatal error:  Call to undefined method Doctrine\ORM\QueryBuilder::getSingleResult() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Repository/ArticleRepository.php on line 24
+[15-May-2018 08:33:19 UTC] PHP Stack trace:
+[15-May-2018 08:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[15-May-2018 08:33:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[15-May-2018 08:33:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[15-May-2018 08:33:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[15-May-2018 08:33:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:33:19 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->acceuilAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:33:19 UTC] PHP   7. OC\GestionBundle\Repository\ArticleRepository->findLastArticle() /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php:27
+[15-May-2018 08:33:38 UTC] PHP Fatal error:  Call to undefined method Doctrine\ORM\QueryBuilder::getSingleScalarResult() in /home/ubuntu/workspace/famille/src/OC/GestionBundle/Repository/ArticleRepository.php on line 24
+[15-May-2018 08:33:38 UTC] PHP Stack trace:
+[15-May-2018 08:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[15-May-2018 08:33:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[15-May-2018 08:33:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[15-May-2018 08:33:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[15-May-2018 08:33:38 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:33:38 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->acceuilAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[15-May-2018 08:33:38 UTC] PHP   7. OC\GestionBundle\Repository\ArticleRepository->findLastArticle() /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php:27
+[29-May-2018 15:11:40 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 39
+[29-May-2018 15:11:40 UTC] PHP Stack trace:
+[29-May-2018 15:11:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 15:11:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 15:11:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 15:11:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 15:11:40 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:11:40 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:15:07 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 39
+[29-May-2018 15:15:07 UTC] PHP Stack trace:
+[29-May-2018 15:15:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 15:15:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 15:15:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 15:15:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 15:15:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:15:07 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:32:04 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 39
+[29-May-2018 15:32:04 UTC] PHP Stack trace:
+[29-May-2018 15:32:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 15:32:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 15:32:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 15:32:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 15:32:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:32:04 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:33:04 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 39
+[29-May-2018 15:33:04 UTC] PHP Stack trace:
+[29-May-2018 15:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 15:33:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 15:33:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 15:33:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 15:33:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 15:33:04 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 17:55:41 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 39
+[29-May-2018 17:55:41 UTC] PHP Stack trace:
+[29-May-2018 17:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 17:55:41 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 17:55:41 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 17:55:41 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 17:55:41 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 17:55:41 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 17:59:02 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 17:59:02 UTC] PHP Stack trace:
+[29-May-2018 17:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 17:59:02 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 17:59:02 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 17:59:02 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 17:59:02 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 17:59:02 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:02:09 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:02:09 UTC] PHP Stack trace:
+[29-May-2018 18:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:02:09 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:02:09 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:02:09 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:02:09 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:02:09 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:03:32 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:03:32 UTC] PHP Stack trace:
+[29-May-2018 18:03:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:03:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:03:32 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:03:32 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:03:32 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:03:32 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:06:59 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:06:59 UTC] PHP Stack trace:
+[29-May-2018 18:06:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:06:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:06:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:06:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:06:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:06:59 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:08:11 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:08:11 UTC] PHP Stack trace:
+[29-May-2018 18:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:08:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:08:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:08:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:08:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:08:11 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:14:53 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:14:53 UTC] PHP Stack trace:
+[29-May-2018 18:14:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:14:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:14:53 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:14:53 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:14:53 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:14:53 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:17:16 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:17:16 UTC] PHP Stack trace:
+[29-May-2018 18:17:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:17:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:17:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:17:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:17:16 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:17:16 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:17:49 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:17:49 UTC] PHP Stack trace:
+[29-May-2018 18:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:17:49 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:17:49 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:17:49 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:17:49 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:17:49 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:23:11 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 40
+[29-May-2018 18:23:11 UTC] PHP Stack trace:
+[29-May-2018 18:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:23:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:23:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:23:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:23:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:23:11 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:26:19 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 41
+[29-May-2018 18:26:19 UTC] PHP Stack trace:
+[29-May-2018 18:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:26:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:26:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:26:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:26:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:26:19 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:26:59 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 41
+[29-May-2018 18:26:59 UTC] PHP Stack trace:
+[29-May-2018 18:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:26:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:26:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:26:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:26:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:26:59 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:28:51 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:28:51 UTC] PHP Stack trace:
+[29-May-2018 18:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:28:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:28:51 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:28:51 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:28:51 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:28:51 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:31:42 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:31:42 UTC] PHP Stack trace:
+[29-May-2018 18:31:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:31:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:31:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:31:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:31:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:31:42 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:33:30 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:33:30 UTC] PHP Stack trace:
+[29-May-2018 18:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:33:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:33:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:33:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:33:30 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:33:30 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:34:51 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:34:51 UTC] PHP Stack trace:
+[29-May-2018 18:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:34:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:34:51 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:34:51 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:34:51 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:34:51 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:36:32 UTC] PHP Fatal error:  Call to a member function getExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:36:32 UTC] PHP Stack trace:
+[29-May-2018 18:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:36:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:36:32 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:36:32 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:36:32 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:36:32 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:37:28 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:37:28 UTC] PHP Stack trace:
+[29-May-2018 18:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:37:28 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:37:28 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:37:28 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:37:28 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:37:28 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:41:43 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 42
+[29-May-2018 18:41:43 UTC] PHP Stack trace:
+[29-May-2018 18:41:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:41:43 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:41:43 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:41:43 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:41:43 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:41:43 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:44:11 UTC] PHP Fatal error:  Call to a member function guessExtension() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 43
+[29-May-2018 18:44:11 UTC] PHP Stack trace:
+[29-May-2018 18:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[29-May-2018 18:44:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[29-May-2018 18:44:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[29-May-2018 18:44:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[29-May-2018 18:44:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[29-May-2018 18:44:11 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:30:24 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[06-Jun-2018 07:30:24 UTC] PHP Stack trace:
+[06-Jun-2018 07:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:30:24 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:30:24 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:30:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:30:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:30:24 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:33:07 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[06-Jun-2018 07:33:07 UTC] PHP Stack trace:
+[06-Jun-2018 07:33:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:33:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:33:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:33:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:33:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:33:07 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:35:57 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[06-Jun-2018 07:35:57 UTC] PHP Stack trace:
+[06-Jun-2018 07:35:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:35:57 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:35:57 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:35:57 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:35:57 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:35:57 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:40:07 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[06-Jun-2018 07:40:07 UTC] PHP Stack trace:
+[06-Jun-2018 07:40:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:40:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:40:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:40:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:40:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:40:07 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:43:23 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[06-Jun-2018 07:43:23 UTC] PHP Stack trace:
+[06-Jun-2018 07:43:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:43:23 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:43:23 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:43:23 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:43:23 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:43:23 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:45:28 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[06-Jun-2018 07:45:28 UTC] PHP Stack trace:
+[06-Jun-2018 07:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:45:28 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:45:28 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:45:28 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:45:28 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:45:28 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:47:39 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 96
+[06-Jun-2018 07:47:39 UTC] PHP Stack trace:
+[06-Jun-2018 07:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:47:39 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:47:39 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:47:39 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:47:39 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:47:39 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:51:14 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Form\Form::isMethod() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 96
+[06-Jun-2018 07:51:14 UTC] PHP Stack trace:
+[06-Jun-2018 07:51:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[06-Jun-2018 07:51:14 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[06-Jun-2018 07:51:14 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[06-Jun-2018 07:51:14 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[06-Jun-2018 07:51:14 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[06-Jun-2018 07:51:14 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->imageAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:12:26 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:12:26 UTC] PHP Stack trace:
+[11-Jun-2018 10:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:12:26 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:12:26 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:12:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:12:26 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:12:26 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:12:56 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:12:56 UTC] PHP Stack trace:
+[11-Jun-2018 10:12:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:12:56 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:12:56 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:12:56 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:12:56 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:12:56 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:14:13 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:14:13 UTC] PHP Stack trace:
+[11-Jun-2018 10:14:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:14:13 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:14:13 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:14:13 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:14:13 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:14:13 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:15:43 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:15:43 UTC] PHP Stack trace:
+[11-Jun-2018 10:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:15:43 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:15:43 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:15:43 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:15:43 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:15:43 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:16:41 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:16:41 UTC] PHP Stack trace:
+[11-Jun-2018 10:16:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:16:41 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:16:41 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:16:41 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:16:41 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:16:41 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:19:52 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:19:52 UTC] PHP Stack trace:
+[11-Jun-2018 10:19:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:19:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:19:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:19:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:19:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:19:52 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:20:11 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:20:11 UTC] PHP Stack trace:
+[11-Jun-2018 10:20:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:20:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:20:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:20:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:20:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:20:11 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:20:22 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 119
+[11-Jun-2018 10:20:22 UTC] PHP Stack trace:
+[11-Jun-2018 10:20:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:20:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:20:22 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:20:22 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:20:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:20:22 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:28:17 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Entity\Image::getUrl() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 124
+[11-Jun-2018 10:28:17 UTC] PHP Stack trace:
+[11-Jun-2018 10:28:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:28:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:28:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:28:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:28:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:28:17 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:28:52 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Entity\Image::getUrl() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 124
+[11-Jun-2018 10:28:52 UTC] PHP Stack trace:
+[11-Jun-2018 10:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[11-Jun-2018 10:28:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[11-Jun-2018 10:28:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[11-Jun-2018 10:28:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[11-Jun-2018 10:28:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[11-Jun-2018 10:28:52 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->biblioAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[14-Jun-2018 10:38:52 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\Cache\Adapter\TraceableAdapter::serialize() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 96
+[14-Jun-2018 10:38:52 UTC] PHP Stack trace:
+[14-Jun-2018 10:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[14-Jun-2018 10:38:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[14-Jun-2018 10:38:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[14-Jun-2018 10:38:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[14-Jun-2018 10:38:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[14-Jun-2018 10:38:52 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->authentificationAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[14-Jun-2018 10:45:17 UTC] PHP Fatal error:  Call to undefined method OC\PersonnelBundle\Entity\User::getUser() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 97
+[14-Jun-2018 10:45:17 UTC] PHP Stack trace:
+[14-Jun-2018 10:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[14-Jun-2018 10:45:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[14-Jun-2018 10:45:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[14-Jun-2018 10:45:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[14-Jun-2018 10:45:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[14-Jun-2018 10:45:17 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->authentificationAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[14-Jun-2018 10:45:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 99
+[14-Jun-2018 10:45:34 UTC] PHP Stack trace:
+[14-Jun-2018 10:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[14-Jun-2018 10:45:34 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[14-Jun-2018 10:45:34 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[14-Jun-2018 10:45:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[14-Jun-2018 10:45:34 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[14-Jun-2018 10:45:34 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[14-Jun-2018 10:45:34 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[14-Jun-2018 10:45:34 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[14-Jun-2018 10:45:34 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[14-Jun-2018 10:45:34 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[14-Jun-2018 10:45:34 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[14-Jun-2018 10:45:34 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[14-Jun-2018 10:45:34 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 12:12:59 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 12:12:59 UTC] PHP Stack trace:
+[02-Jul-2018 12:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 12:12:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 12:12:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 12:12:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 12:12:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:12:59 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:13:02 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 12:13:02 UTC] PHP Stack trace:
+[02-Jul-2018 12:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 12:13:02 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 12:13:02 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 12:13:02 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 12:13:02 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:13:02 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:15:14 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 12:15:14 UTC] PHP Stack trace:
+[02-Jul-2018 12:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 12:15:14 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 12:15:14 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 12:15:14 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 12:15:14 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:15:14 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:28:05 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 12:28:05 UTC] PHP Stack trace:
+[02-Jul-2018 12:28:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 12:28:05 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 12:28:05 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 12:28:05 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 12:28:05 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:28:05 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:28:27 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 12:28:27 UTC] PHP Stack trace:
+[02-Jul-2018 12:28:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 12:28:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 12:28:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 12:28:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 12:28:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 12:28:27 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:43:32 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:43:32 UTC] PHP Stack trace:
+[02-Jul-2018 18:43:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:43:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:43:32 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:43:32 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:43:32 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:43:32 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:44:42 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:44:42 UTC] PHP Stack trace:
+[02-Jul-2018 18:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:44:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:44:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:44:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:44:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:44:42 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:44:59 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:44:59 UTC] PHP Stack trace:
+[02-Jul-2018 18:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:44:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:44:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:44:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:44:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:44:59 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:51:04 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:51:04 UTC] PHP Stack trace:
+[02-Jul-2018 18:51:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:51:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:51:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:51:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:51:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:51:04 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:55:27 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:55:27 UTC] PHP Stack trace:
+[02-Jul-2018 18:55:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:55:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:55:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:55:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:55:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:55:27 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:55:59 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:55:59 UTC] PHP Stack trace:
+[02-Jul-2018 18:55:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:55:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:55:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:55:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:55:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:55:59 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:56:38 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:56:38 UTC] PHP Stack trace:
+[02-Jul-2018 18:56:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:56:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:56:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:56:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:56:38 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:56:38 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:58:50 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 18:58:50 UTC] PHP Stack trace:
+[02-Jul-2018 18:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 18:58:50 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 18:58:50 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 18:58:50 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 18:58:50 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 18:58:50 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:02:54 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:02:54 UTC] PHP Stack trace:
+[02-Jul-2018 19:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:02:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:02:54 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:02:54 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:02:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:02:54 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:04:23 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:04:23 UTC] PHP Stack trace:
+[02-Jul-2018 19:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:04:23 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:04:23 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:04:23 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:04:23 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:04:23 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:05:19 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:05:19 UTC] PHP Stack trace:
+[02-Jul-2018 19:05:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:05:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:05:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:05:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:05:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:05:19 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:05:20 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:05:20 UTC] PHP Stack trace:
+[02-Jul-2018 19:05:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:05:20 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:05:20 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:05:20 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:05:20 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:05:20 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:05:21 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:05:21 UTC] PHP Stack trace:
+[02-Jul-2018 19:05:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:05:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:05:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:05:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:05:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:05:21 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:07:39 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:07:39 UTC] PHP Stack trace:
+[02-Jul-2018 19:07:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:07:39 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:07:39 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:07:39 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:07:39 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:07:39 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:08:04 UTC] PHP Fatal error:  Call to undefined method OC\BlogBundle\Controller\DefaultController::getRequest() in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 19:08:04 UTC] PHP Stack trace:
+[02-Jul-2018 19:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 19:08:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 19:08:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 19:08:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 19:08:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 19:08:04 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:43:46 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:43:46 UTC] PHP Stack trace:
+[02-Jul-2018 20:43:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:43:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:43:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:43:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:43:46 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:43:46 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:44:02 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:44:02 UTC] PHP Stack trace:
+[02-Jul-2018 20:44:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:44:02 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:44:02 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:44:02 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:44:02 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:44:02 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:44:54 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:44:54 UTC] PHP Stack trace:
+[02-Jul-2018 20:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:44:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:44:54 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:44:54 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:44:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:44:54 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:45:16 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:45:16 UTC] PHP Stack trace:
+[02-Jul-2018 20:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:45:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:45:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:45:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:45:16 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:45:16 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:46:19 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:46:19 UTC] PHP Stack trace:
+[02-Jul-2018 20:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:46:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:46:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:46:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:46:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:46:19 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:47:21 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:47:21 UTC] PHP Stack trace:
+[02-Jul-2018 20:47:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:47:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:47:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:47:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:47:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:47:21 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:49:47 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:49:47 UTC] PHP Stack trace:
+[02-Jul-2018 20:49:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:49:47 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:49:47 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:49:47 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:49:47 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:49:47 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:49:56 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 74
+[02-Jul-2018 20:49:56 UTC] PHP Stack trace:
+[02-Jul-2018 20:49:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:49:56 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:49:56 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:49:56 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:49:56 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403}() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:49:56 UTC] PHP   6. OC\BlogBundle\Controller\DefaultController->transferAction() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6403
+[02-Jul-2018 20:50:42 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:50:42 UTC] PHP Stack trace:
+[02-Jul-2018 20:50:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:50:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:50:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:50:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:50:42 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:50:42 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:50:42 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:50:42 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:50:42 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:50:42 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:50:42 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:50:42 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:50:42 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:51:18 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:51:18 UTC] PHP Stack trace:
+[02-Jul-2018 20:51:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:51:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:51:18 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:51:18 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:51:18 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:51:18 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:51:18 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:51:18 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:51:18 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:51:18 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:51:18 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:51:18 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:51:18 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:08 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:52:08 UTC] PHP Stack trace:
+[02-Jul-2018 20:52:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:52:08 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:52:08 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:52:08 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:52:08 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:52:08 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:52:08 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:52:08 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:52:08 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:52:08 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:52:08 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:08 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:08 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:32 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:52:32 UTC] PHP Stack trace:
+[02-Jul-2018 20:52:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:52:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:52:32 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:52:32 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:52:32 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:52:32 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:52:32 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:52:32 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:52:32 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:52:32 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:52:32 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:32 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:32 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:46 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:52:46 UTC] PHP Stack trace:
+[02-Jul-2018 20:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:52:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:52:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:52:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:52:46 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:52:46 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:52:46 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:52:46 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:52:46 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:52:46 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:52:46 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:46 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:52:46 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:53:03 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:53:03 UTC] PHP Stack trace:
+[02-Jul-2018 20:53:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:53:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:53:03 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:53:03 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:53:03 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:53:03 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:53:03 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:53:03 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:53:03 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:53:03 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:53:03 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:53:03 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:53:03 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:53:09 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[02-Jul-2018 20:53:09 UTC] PHP Stack trace:
+[02-Jul-2018 20:53:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[02-Jul-2018 20:53:09 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[02-Jul-2018 20:53:09 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[02-Jul-2018 20:53:09 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[02-Jul-2018 20:53:09 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[02-Jul-2018 20:53:09 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[02-Jul-2018 20:53:09 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[02-Jul-2018 20:53:09 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[02-Jul-2018 20:53:09 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[02-Jul-2018 20:53:09 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[02-Jul-2018 20:53:09 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:53:09 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[02-Jul-2018 20:53:09 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:36 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:52:36 UTC] PHP Stack trace:
+[03-Jul-2018 08:52:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:52:36 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:52:36 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:52:36 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:52:36 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:52:36 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:52:36 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:52:36 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:52:36 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:52:36 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:52:36 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:36 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:36 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:43 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:52:43 UTC] PHP Stack trace:
+[03-Jul-2018 08:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:52:43 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:52:43 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:52:43 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:52:43 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:52:43 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:52:43 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:52:43 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:52:43 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:52:43 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:52:43 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:43 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:43 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:46 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:52:46 UTC] PHP Stack trace:
+[03-Jul-2018 08:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:52:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:52:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:52:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:52:46 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:52:46 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:52:46 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:52:46 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:52:46 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:52:46 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:52:46 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:46 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:46 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:49 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:52:49 UTC] PHP Stack trace:
+[03-Jul-2018 08:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:52:49 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:52:49 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:52:49 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:52:49 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:52:49 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:52:49 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:52:49 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:52:49 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:52:49 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:52:49 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:49 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:52:49 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:53:10 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:53:10 UTC] PHP Stack trace:
+[03-Jul-2018 08:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:53:10 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:53:10 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:53:10 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:53:10 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:53:10 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:53:10 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:53:10 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:53:10 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:53:10 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:53:10 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:53:10 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:53:10 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:53:13 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:53:13 UTC] PHP Stack trace:
+[03-Jul-2018 08:53:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:53:13 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:53:13 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:53:13 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:53:13 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:53:13 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:53:13 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:53:13 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:53:13 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:53:13 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:53:13 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:53:13 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:53:13 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:23 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:54:23 UTC] PHP Stack trace:
+[03-Jul-2018 08:54:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:54:23 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:54:23 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:54:23 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:54:23 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:54:23 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:54:23 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:54:23 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:54:23 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:54:23 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:54:23 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:23 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:23 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:31 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:54:31 UTC] PHP Stack trace:
+[03-Jul-2018 08:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:54:31 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:54:31 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:54:31 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:54:31 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:54:31 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:54:31 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:54:31 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:54:31 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:54:31 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:54:31 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:31 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:31 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:40 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/famille/src/OC/BlogBundle/Controller/DefaultController.php on line 94
+[03-Jul-2018 08:54:40 UTC] PHP Stack trace:
+[03-Jul-2018 08:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/famille/web/app_dev.php:0
+[03-Jul-2018 08:54:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/famille/web/app_dev.php:25
+[03-Jul-2018 08:54:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[03-Jul-2018 08:54:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6358
+[03-Jul-2018 08:54:40 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:6392
+[03-Jul-2018 08:54:40 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/famille/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:49
+[03-Jul-2018 08:54:40 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2213
+[03-Jul-2018 08:54:40 UTC] PHP   8. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2086
+[03-Jul-2018 08:54:40 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2282
+[03-Jul-2018 08:54:40 UTC] PHP  10. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2222
+[03-Jul-2018 08:54:40 UTC] PHP  11. class_exists() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:40 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142
+[03-Jul-2018 08:54:40 UTC] PHP  13. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/famille/var/cache/dev/classes.php:2142

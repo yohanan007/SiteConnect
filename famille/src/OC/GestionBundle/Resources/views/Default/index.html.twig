@@ -1,0 +1,65 @@
+{%extends 'base.html.twig' %}
+{%block title %} Page gestionnaire du blog  {%endblock%}
+{% block body %}
+<header>
+    
+</header>
+     <nav class="navbar navbar-inverse"> 
+     <div class="container-fluid">
+             <div class="navbar-header">
+                 <a class="navbar-brand" href="#">
+                     FAMILLE HIRSCH GESTIONNAIRE
+                 </a>
+             </div>
+             <ul class="nav navbar-nav">
+                 <li class="active">
+                     <a href="../">
+                         index
+                     </a>
+                 </li>
+                <li><a href="#">
+                     autre
+                 </a>
+                 </li> 
+             </ul>
+      </div>
+     </nav>
+     <section class="container-fluid">
+         
+         <article class="row">
+             <div class="col-sm-6">
+            
+                 <div class="well">
+                     <h3>Nouvelle page</h3>
+                     <p>créer un nouveau contenu dans votre blog, une nouvelle page </p>
+                     <a href="créer" class=" btn btn-default btn-lg">gérer ou créer une nouvelle page</a>
+                 </div>
+
+         </div>
+         <div class="col-sm-6">
+            
+                 <div class="well">
+                     <h3>Image</h3>
+                     <p>ajouter ou gérer les images de votre bibliothéque</p>
+                     <a href="image" class=" btn btn-default btn-lg">gérer ou ajouter image</a>
+                 </div>
+             </div>
+                 
+         </article>
+         <article class="well">
+             <h3>Page d'acceuil</h3>
+             <p> gestion de votre page d'acceuil, image , ajout d'événement, etc...</p>
+             <a href="acceuil" class="btn btn-default btn-lg">
+                 Gestion acceuil
+             </a>
+         </article>
+           <article class="well">
+             <h3>Utilisateur</h3>
+             <p> gestion des utilisateurs, ajout, modification, suppression</p>
+             <a href="utilisateurs" class="btn btn-default btn-lg">
+                 utilisateurs
+             </a>
+         </article>
+     </section>
+
+{% endblock %}

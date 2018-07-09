@@ -1,0 +1,11 @@
+oc_gestion_homepage:
+    path:     /
+    defaults: { _controller: OCGestionBundle:Default:index }
+
+oc_gestion_pageBlog:
+    path:    /créer
+    defaults: { _controller: OCGestionBundle:Default:blog }
+
+oc_gestion_pageUtilisateurs:
+    path:    /utilisateurs
+    defaults: { _controller: OCGestionBundle:Default:utilisateurs }

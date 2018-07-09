@@ -1,0 +1,3 @@
+oc_administrateur_homepage:
+    path:     /
+    defaults: { _controller: OCAdministrateurBundle:Default:index }

@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block title %}blog acceuil{% endblock %}
+{% block body %}
+    <header>
+       
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href='./'>index</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <section>
+            <article class="jumbotron">
+                <div class="container-fluid">
+                <h2>nos derniéres images</h2>
+                <p>vous pouvez decouvrir ici les dernières images, des derniers événements</p>
+                </div>
+            </article>
+            <article class='container-fluid'>
+                <div class="row">
+                    {% for  image in allImage %}
+                    <div class="col-md-6">
+                        <img src='{{ asset(image.webPath)}}' class="img-responsive"  />
+                        <p>{{ image.id }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </article>
+    </section>
+{% endblock %}

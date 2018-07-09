@@ -1,0 +1,91 @@
+{% extends 'base.html.twig' %}
+{% block title %}blog acceuil{% endblock %}
+{% block body %}
+<script>
+// solution lourde pour le menu, divers autre solution possible
+
+        
+          
+            
+            // version 0.2
+       // pour éviter les rebondances on aurait pu mettre les données pere et titre dans un tableau 
+       // autre possibilité faire les choses au niveau php (pas sur que ce soit la meilleur solution  lors de grand menu via render)
+     $(document).ready(function(){  
+            function menuInit()
+            {
+                var menuInit = "";
+                {% for value in section %}
+                 var pere =  '{{ value.pere }}';
+                 var titre = '{{ value.nom }}'
+                 if (pere === '')
+                 {
+                   menuInit = menuInit +  "<li><a href='../" + titre + "'>" + titre  + "</a></li>";
+                 }
+                 {% endfor %} 
+                 menuInit = menuInit + "";
+                 console.log(menuInit);
+                 return menuInit ;
+                 
+            }
+            
+            function menuEnf(titre)
+            {
+                var menuEnf = "<ul>";
+                {% for value in section %}
+                 var pere =  '{{ value.pere }}';
+                 var titreF = '{{ value.nom }}'
+                 if (pere === titre )
+                 {
+                   menuEnf = menuEnf +  "<li><a href='" + titreF + ">" + titreF  + "</a></li>";
+                 }
+                 {% endfor %} 
+                 menuEnf = menuEnf + "</ul>";
+                 console.log('enf' + menuEnf);
+                 return menuEnf ;
+            }
+
+var init = menuInit();     
+
+      $('li.active').after(init);
+});
+          
+            
+ </script> 
+ <header>
+     <div class="jumbotron">
+         <div class="container-fluid">
+         <h2>BLOG</h2>
+        <p>Les dernières nouvelles de la famille </p>
+     </div>
+    </div> 
+ </header>
+ <!-- possibilité de faire menu à plusieurs couche, mais pas forcément la meilleur visuellement et pratiquement -->
+ <!-- on pourra mettre à l'acceuil ou de côté un lien vers les derniers article publié et choisi par l'utilisateur -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href=".">index</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="acceuil">home</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <section>
+       <div class="well">
+           <h2>dernier article publié dans le blog</h2>
+            {% for result in article %}
+        
+       <ul><li><b>id: </b> {{ result.id }}</li>
+       <li><b>nom de l'article</b>{{ result.nom }}</li>
+       <li> <b>section: </b>{{ result.section.id }}</li>
+       <li> <b>text.id </b>{{ result.textAs.id }}</li>
+       <li><b>text: </b> {{ result.textAs.text }}</li>
+       
+       </ul>
+        {% endfor %}
+       </div>
+<span id="result"></span>       
+    </section>
+{%endblock%}

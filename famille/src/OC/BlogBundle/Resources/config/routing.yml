@@ -1,0 +1,33 @@
+oc_blog_homepage:
+    path:     /
+    defaults: { _controller: OCBlogBundle:Default:index }
+
+oc_blog_acceuil:
+    path:    /acceuil
+    defaults: { _controller: OCBlogBundle:Default:acceuil }
+
+oc_blog_transfer:
+    path:    /transfer
+    defaults: { _controller: OCBlogBundle:Default:transfer }
+
+oc_blog_authentification:
+    path:   /authentification
+    defaults: { _controller: OCBlogBundle:Default:authentification }
+    methods:  [GET]
+
+oc_blog_image:
+    path:   /image
+    defaults: { _controller: OCBlogBundle:Default:image }
+
+oc_blog_biblio:
+    path:   /bibliothequeApi
+    defaults: { _controller: OCBlogBundle:Default:biblio }
+    methods:  [GET]
+
+oc_blog_biblioSite:
+    path:  /bibliothequeSite
+    defaults: { _controller: OCBlogBundle:Default:bibliosite }
+
+
+
+
